@@ -6,6 +6,7 @@ import com.SpringExample.inventoryservice.repository.InventoryRepository;
 import com.SpringExample.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
