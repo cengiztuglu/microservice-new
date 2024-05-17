@@ -1,4 +1,4 @@
-package com.SpringExample.orderservice.config;
+package com.SpringExample.config;
 import io.netty.resolver.DefaultAddressResolverGroup;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
